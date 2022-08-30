@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage ('Lint Check') {
                 steps {
-                    sh "echo Lint Check running"
+                    sh "echo Lint Check running for ${COMPONENT}"
                 }
             }
         }
