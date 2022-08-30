@@ -2,4 +2,4 @@ def info(message) {
     echo "INFO: $(message)"
 }
 
-info (Hai)
+info(Hai)
