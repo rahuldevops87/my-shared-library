@@ -1,5 +1,13 @@
-def info(message) {
-    echo "INFO: ${message}"
-}
+def call() {
 
-info("Hai")
+pipeline {
+    agent any
+        stages {
+            stage ('Lint Check') {
+                steps {
+                    sh "echo Lint Check running"
+                }
+            }
+        }
+    }
+}
